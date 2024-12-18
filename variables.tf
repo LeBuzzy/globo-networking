@@ -21,7 +21,7 @@ variable "environement" {
 }
 
 variable "billing_code" {
-  type = string
+  type        = string
   description = "(Required) Code facturation pour réseau"
 }
 
